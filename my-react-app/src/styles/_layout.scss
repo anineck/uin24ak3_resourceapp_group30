@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 
-:root {
+#root {
 	line-height: 1.5;
 
-	max-width: 1280px;
+	max-width: 800px;
   	margin: 0 auto;
   	padding: 2rem;
+    width: 100%;
 }
 a {
 	text-decoration: inherit;
@@ -23,11 +24,13 @@ h2 {
 	padding-top: 2rem;
 	margin: 0;
 }
+
 .links {
 	display: flex;
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
+    justify-content: space-between;
 	li {
 		a {
 			color: #fff;
@@ -43,7 +46,7 @@ h2 {
 	a:link {
 		background-color: #f44336;
 		color: white;
-		padding: 14px 25px;
+		padding: 14px 45px;
 		text-align: center;
 		text-decoration: none;
 		display: inline-block;
@@ -53,7 +56,7 @@ h2 {
 	margin-bottom: .5rem;
 }
 .content {
-	text-align: center;
+	text-align: left;
 	margin-left: 3rem;
 	padding-bottom: 2rem;
 }
