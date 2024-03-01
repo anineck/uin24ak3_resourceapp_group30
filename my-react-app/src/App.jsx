@@ -2,7 +2,7 @@
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
 import Layout from './components/Layout'
-import Resources from './components/Resouces'
+import Resources from './components/Ressurser'
 
 function App() {
   
